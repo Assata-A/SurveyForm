@@ -17,14 +17,15 @@
         <label for="email">Email:</Address></label>
         <input required id="email" placeholder="Enter email address here">
         <br>
-        <label for="age">Age</label>
+        <label for="age">Age:</label>
     
-        <input id="age"  type="age" min="0" max="100" placeholder="Enter age here">
+        <input id="age" type="age" max="100" placeholder="Enter age here">
         <br>
         <br>
     <div>
         <select id="dropdown">
-            <option value="">What is your favorite genre of music?</option>
+            <div class="option">
+            <option value="0">What is your favorite genre of music?</option>
             <option value="1">Hip Hop</option>
             <option value="2">Jazz</option>
             <option value="3">Rock</option>
@@ -33,30 +34,52 @@
             <option value="6">Alternative</option>
             <option value="7">R&B/Soul</option>
             <option value="8">Electronic</option>
+           </div>
         </select>
+        <br>
     </div>
-
+ 
       <label for="radio">Do you enjoy other genres?</label>
-       NO<input type="radio" name="radio">   
-       YES<input type="radio" name="radio">
-  
        <br>
-       <label for="checkbox">How is music involved in your everyday life </label>
-       <input type="checkbox" value="1"> I use music to focus 
+       <input type="radio" name="radio">   
+       <a>Yes</a>
+       <br>
+       <input type="radio" name="radio">
+       <a>No</a>
+       
+       <br>
+       <br> 
+
+       <label for="checkbox">How is music involved in your everyday life? </label>
+       <br>
+       <input type="checkbox" value="1"> I use music to focus
+       <br>
        <input type="checkbox" value="2"> Music helps me relax
-       <input type="checkbox" value="3"> I listen to music when i drive 
+       <br>
+       <input type="checkbox" value="3"> Listen to music when i drive 
+       <br>
        <input type="checkbox" value="4"> Music helps express my emotions
+       <br>
        <input type="checkbox" value="5"> Music helps me sleep 
+       <br>
        <input type="checkbox" value="6"> I listen to music to dance
+       <br>
        <input type="checkbox" value="7"> Music is enchances my exercise
+       <br>
        <input type="checkbox" value="8"> Music ncourages my creativity
+       <br>
        <input type="checkbox" value="9"> Music influences the way I dress
+       <br>
        <input type="checkbox" value="10"> Music empowers my individuality
+       <br>
        <input type="checkbox" value="11"> I dony listen to music (Willie)
+       <br>
+       <br>
+
 
       
        <textarea placeholder="Describe how music impacts your life"></textarea>
-      
+      <br>
        <button id="submit">
         submit
        </button>
